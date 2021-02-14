@@ -40,18 +40,13 @@ class Entity {
    * Удаляет информацию о счёте или доходе/расходе
    * (в зависимости от того, что наследуется от Entity)
    * */
-  static remove(id = '',data, callback ) {
-  
+  static remove(id, callback ) {
 
     createRequest({
       url: this.URL,
       method: 'DELETE',
       responseType: 'json',
-      // data: {
-      //   ...data,
-      //   _method: 'DELETE',
-      //   id: id
-      // },
+      data: {id},
       callback
     });
   }

@@ -28,6 +28,16 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Новый",
+      "user_id": "3hz2rw31gjwkl18ens4",
+      "id": "3hz2rw3qkokl59mbhi"
+    },
+    {
+      "name": "Старый",
+      "user_id": "3hz2rw31gjwkl18ens4",
+      "id": "3hz2rw3qktkl59mg0b"
     }
   ],
   "transactions": [
@@ -186,6 +196,34 @@
       "sum": 10000,
       "account_id": "3hz2rw31gwukl18fxv2",
       "created_at": "2021-02-11T19:06:27.048Z"
+    },
+    {
+      "type": "INCOME",
+      "name": "Мама дала",
+      "sum": 2000,
+      "account_id": "3hz2rw3qjakl59kgq0",
+      "created_at": "2021-02-14T14:48:52.674Z"
+    },
+    {
+      "type": "EXPENSE",
+      "name": "Мама забрала",
+      "sum": 500,
+      "account_id": "3hz2rw3qfxkl59k8oq",
+      "created_at": "2021-02-14T14:49:16.532Z"
+    },
+    {
+      "type": "INCOME",
+      "name": "Мама дала",
+      "sum": 2000,
+      "account_id": "3hz2rw3qktkl59mg0b",
+      "created_at": "2021-02-14T14:50:17.068Z"
+    },
+    {
+      "type": "EXPENSE",
+      "name": "Мама забрала",
+      "sum": 500,
+      "account_id": "3hz2rw3qktkl59mg0b",
+      "created_at": "2021-02-14T14:50:28.231Z"
     }
   ]
 }

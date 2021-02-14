@@ -47,11 +47,11 @@ class Entity {
       url: this.URL,
       method: 'DELETE',
       responseType: 'json',
-      data: {
-        ...data,
-        _method: 'DELETE',
-        id: id
-      },
+      // data: {
+      //   ...data,
+      //   _method: 'DELETE',
+      //   id: id
+      // },
       callback
     });
   }
